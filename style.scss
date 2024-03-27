@@ -1,0 +1,158 @@
+.container-fluid{
+    background-color: lightblue;
+.logo {
+    img{
+        width: 180px;
+        padding-bottom: 15px;
+        @media screen and (max-width: 768px) {
+            width: 200px;
+            }
+        }
+    }
+}
+
+.nav-items{
+    margin-left: auto;
+    gap: 20px;
+    @media screen and (max-width: 768px){
+        gap: 1px;
+        
+    }
+    margin-right: 35px;
+    li{
+        a{
+            font-size: 25px;
+            font-weight: 600;
+            color: black;
+        }
+    }
+}
+.nav-items li a:hover{
+    color: red;
+    font-size: 30px;
+}
+.details{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 768px){
+        height: 80vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content{
+        @media screen and (max-width: 768px){
+            // margin-left: 5%;
+        }
+    }
+    h1 {
+        font-size: 50px; 
+        color: black; 
+        margin-bottom: 10px; 
+        @media screen and (max-width: 768px){  
+            font-size: 35px;
+        }
+    }
+    span{
+        color: orangered;
+    }
+    p {
+        color: gray;
+        line-height: 22px;
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: "Namdhinggo", serif;
+        @media screen and (max-width: 768px){
+            font-size: 15px;
+        }
+    }
+    button{
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        @media screen and (max-width: 768px){
+            padding: 5px;
+        }
+    }
+    button:hover{
+        color: red;
+    }
+    .images{
+        display: flex;
+        justify-content:center;
+        img{
+            width: 250px;
+            @media screen and (min-width:786px){
+                width: 80%;
+                height: 50vh;
+            }
+        }
+    }
+}
+.headings{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(10, 59, 7);
+    font-size: 45px;
+    font-family: "Namdhinggo", serif;
+}
+.head{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(10, 59, 7);
+    font-family: "Namdhinggo", serif;
+    @media screen and (max-width: 768px){
+        font-size: 25px;
+    }
+}
+.text{ 
+    font-size: 25px;
+    font-family: "Namdhinggo", serif;
+    @media screen and (max-width: 768px){ 
+        font-size: 20px; 
+        color:black;
+    }
+}  
+.contact{
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 15px;
+        padding-top: 25px;
+        margin-bottom: 35px;
+        @media screen and (max-width: 768px){
+            padding-top: 10px;
+
+        }
+    }
+    .src-code{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    }
+    .src-code:hover{
+    color: red;
+    }
+}
+.whatsapp:hover{
+    color: rgb(18, 182, 18);
+}
+.instagram:hover{
+    color:#ed1c94
+}
+.instagram{
+    color: linear-gradient;
+}
+.telegram:hover{
+    color: #2058c9;
+}
+.envelope:hover{
+    color: #ff0000;
+}
+.linkedin:hover{
+    color: #215acc;
+}
